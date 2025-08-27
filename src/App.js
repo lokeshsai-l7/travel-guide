@@ -1,6 +1,12 @@
+// import LoadingCircle from './components/Loader/index'
+import HomePage from './components/HomePage/index'
 import './App.css'
-
 // Replace your code here
-const App = () => <div>Hello World!</div>
+
+const App = () => (
+  <div className="app-container">
+    <HomePage />
+  </div>
+)
 
 export default App
